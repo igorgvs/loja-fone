@@ -2,40 +2,57 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <title>Loja de Fone</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/container-store.css" />
     <link rel="stylesheet" href="css/header-store.css" />
-    <link rel="stylesheet" href="css/button-store.css">
-    <link rel="stylesheet" href="css/container-store.css">
+    <link rel="stylesheet" href="css/photo-product.css" />
+    <link rel="stylesheet" href="css/wrap-product.css" />
+    <link rel="stylesheet" href="css/description-product.css" />
+    <link rel="stylesheet" href="css/button-store.css" />
 </head>
 
 <body>
     <div class="container-store">
         <header class="header-store">
-            <h1 class="title">LOGO</h1>
+            <h1 class="title">Logo</h1>
             <nav class="navigation">
+                <input type="search" placeholder="Buscar" />
                 <a class="action" href="">Produtos</a>
                 <a class="action" href="">Serviços</a>
-                <a class="action last" href="">Carrinho (10)</a>
+                <a class="action -last" href="">Carrinho (10)</a>
             </nav>
         </header>
+        <figure class="photo-product">
+            <img src="img/fone.png" alt="Fone de Ouvido" width="800" height="600">
+        </figure>
+        <section class="wrap-product">
+            <dl class="description-product">
+                <dt class="title">Fone Top, feliz e caro</dt>
+                <dd class="item -star">
+                    <img src="img/star.png" alt="Estrela" width="50" height="50">
+                    <img src="img/star.png" alt="Estrela" width="50" height="50">
+                    <img src="img/star.png" alt="Estrela" width="50" height="50">
+                    <img src="img/star.png" alt="Estrela" width="50" height="50">
+                    <img src="img/star2.png" alt="Estrela" width="50" height="50">
+                </dd>
+                <dd class="item">4.0 (97)</dd>
+                <dd class="item -info"><strong class="contrast">Frete</strong> C$ 108</dd>
+                <dd class="item -info"><strong class="contrast">Preço</strong> C$ 340</dd>
+                <dd class="text">
+                    Fone TOP com uma cor feliz que não tem fio. A cor também é algo que impressiona junto com seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre... kkkk
+                </dd>
+                <dd class="text -more"><a href="" class="action">Saber mais ...</a></dd>
+            </dl>
+            <div class="buttons">
+                <button class="button-store -second">Adiciona ao Carrinho</button>
+                <a class="button-store" href="comprar.html">Comprar</a>
+            </div>
+        </section>
 
-        <dl>
-            <dt>Fone Top, feliz e caro</dt>
-
-            <dd>4.0 (97)</dd>
-            <dd>Frete C$ 108</dd>
-            <dd>Preço C$ 340</dd>
-            <dd>
-                Fone TOP com uma cor feliz que não tem fio. A cor também é algo que impressiona junto com seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre... kkkk
-            </dd>
-            <dd><a href="">Saber mais ...</a></dd>
-
-            <dd><button class="button-store -second">Adiciona ao Carrinho</button></dd>
-            <dd><a class="button-store" href="comprar.html">Comprar</a></dd>
-        </dl>
     </div>
 </body>
 

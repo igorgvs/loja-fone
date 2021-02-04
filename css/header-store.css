@@ -1,26 +1,42 @@
 .header-store {
     color: #FFF;
     overflow: hidden;
+    margin-bottom: 138px;
+    padding-left: 60px;
 }
 
-.title {
+.header-store>.title {
     font-size: 40px;
     font-family: Arial, "Roboto", sans-serif;
     float: left;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-.navigation {
+.header-store>.navigation {
     font-size: 21px;
     font-family: "Segoe UI", "Roboto", sans-serif;
     float: right;
 }
 
-.action {
+.header-store [type="search"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    color: #FFF;
+    font-family: Arial, "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    width: 358px;
+    margin-right: 68px;
+}
+
+.header-store .action {
     text-decoration: none;
     color: inherit;
     margin-right: 60px;
 }
 
-.last {
+.header-store .action.-last {
     margin-right: 0;
 }
