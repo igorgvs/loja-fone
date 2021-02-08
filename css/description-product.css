@@ -13,6 +13,12 @@
     font-size: 20px;
 }
 
+.description-product>.item.-heart {
+    position: absolute;
+    transform: translateX(-100px);
+    top: 5px;
+}
+
 .description-product>.item.-star {
     margin-bottom: 10px;
     cursor: pointer;
